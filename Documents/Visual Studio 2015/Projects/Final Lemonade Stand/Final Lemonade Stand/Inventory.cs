@@ -10,7 +10,8 @@ namespace Final_Lemonade_Stand
     {
         public  Items lemon;
         public  Items ice;
-        public  Items sugar; 
+        public  Items sugar;
+        public int StartingBudget;
 
 
         public Inventory()

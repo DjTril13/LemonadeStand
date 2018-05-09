@@ -13,13 +13,14 @@ namespace Final_Lemonade_Stand
 {
     public class Forcast
     {
-        public Forcast(string City)
-        {
-            city = City;
-        }
         private string city;
         private float temperatureC;
         private float temperatureF;
+        public Forcast(string City)     //CONSTRUCTOR
+        {
+            city = City;
+        }
+        
         // private float temperatureMax;
         // private float temperatureMin;
 

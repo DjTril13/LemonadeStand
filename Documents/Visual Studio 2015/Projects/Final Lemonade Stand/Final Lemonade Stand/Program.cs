@@ -13,7 +13,7 @@ namespace Final_Lemonade_Stand
             Game.RunGame();
 
 
-            // take them to the store, which displays weather, starting budegt, price per product,
+            // take them to the store, starting budegt, price per product,
             // have them enter the quantities of each product
             // run the game  -- 
             // display all the sales and stuff

@@ -16,6 +16,8 @@ namespace Final_Lemonade_Stand
             CityForcast.CheckWeather();
             Console.WriteLine("The current weather condition is " + CityForcast.Temp + " degrees Fahrenheit");
             Console.ReadLine();
+            Ice TodaysIce = new Ice();
+            Console.WriteLine(TodaysIce.name);
         }
     }
 }
