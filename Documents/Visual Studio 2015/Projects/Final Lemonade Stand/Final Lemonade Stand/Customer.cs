@@ -11,6 +11,11 @@ namespace Final_Lemonade_Stand
         int hasAnOpinionOnWether;   // inc. odds of making a purchase w/ inc. weather
         int hasAnOpinionOnPrice;    // inc. odds of making a purchase w/ dec. price
         int demand;                    //hasAnOpinionOnPrice + hasAnOpinionOnWether  
-        int amountPurchased;
+        int amountPurchased;            
     }
+
+    Customer()
+    {
+    }
+
 }
