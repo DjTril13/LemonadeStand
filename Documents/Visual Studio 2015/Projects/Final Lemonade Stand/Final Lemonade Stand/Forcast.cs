@@ -18,14 +18,16 @@ namespace Final_Lemonade_Stand
             city = City;
         }
         private string city;
-        private float temperature;
-        private float temperatureMax;
-        private float temperatureMin;
+        private float temperatureC;
+        private float temperatureF;
+        // private float temperatureMax;
+        // private float temperatureMin;
 
         public void CheckWeather()
         {
             API DataAPI = new API(City);
-            temperature = DataAPI.GetTemp();
+            temperatureC = DataAPI.GetTemp();
+            temperatureF = (temperatureC * 9) / 5 +32;
         }
 
         public string City
@@ -35,24 +37,24 @@ namespace Final_Lemonade_Stand
         }
         public float Temp
         {
-            get { return temperature; }
-            set { temperature = value; }
+            get { return temperatureF; }
+            set { temperatureF = value; }
         }
-        public float TempMax
-        {
-            get { return temperatureMax; }
-            set { temperatureMax = value; }
-        }
-        public float TempMin
-        {
-            get { return temperatureMin; }
-            set { temperatureMin = value; }
-        }
-       
-        }
-    }
+        //    public float TempMax
+        //    {
+        //        get { return temperatureMax; }
+        //        set { temperatureMax = value; }
+        //    }
+        //    public float TempMin
+        //    {
+        //        get { return temperatureMin; }
+        //        set { temperatureMin = value; }
+        //    }
 
-    
+    }
+}
+
+
 
 
 //} 5263045

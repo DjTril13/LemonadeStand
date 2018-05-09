@@ -14,7 +14,7 @@ namespace Final_Lemonade_Stand
             Console.ReadLine();
             Forcast CityForcast = new Forcast("Milwaukee");
             CityForcast.CheckWeather();
-            Console.WriteLine(CityForcast.Temp);
+            Console.WriteLine("The current weather condition is " + CityForcast.Temp + " degrees Fahrenheit");
             Console.ReadLine();
         }
     }
